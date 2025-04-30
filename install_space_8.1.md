@@ -41,7 +41,7 @@ sudo mkdir -p /opt/solr
 
 # Download Solr 8.11.4 (security-patched version)
 cd /tmp
-wget https://archive.apache.org/dist/solr/8.11.4/solr-8.11.4.tgz
+wget https://archive.apache.org/dist/lucene/solr/8.11.4/solr-8.11.4.tgz
 
 # Extract Solr
 tar xzf solr-8.11.4.tgz
