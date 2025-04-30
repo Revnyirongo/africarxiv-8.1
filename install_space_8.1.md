@@ -39,13 +39,13 @@ DSpace requires Apache Solr for search functionality:
 # Create directory for Solr
 sudo mkdir -p /opt/solr
 
-# Download Solr 8.11.2 (security-patched version)
+# Download Solr 8.11.4 (security-patched version)
 cd /tmp
-wget https://archive.apache.org/dist/solr/8.11.2/solr-8.11.2.tgz
+wget https://archive.apache.org/dist/solr/8.11.4/solr-8.11.4.tgz
 
 # Extract Solr
-tar xzf solr-8.11.2.tgz
-sudo cp -R solr-8.11.2/* /opt/solr
+tar xzf solr-8.11.4.tgz
+sudo cp -R solr-8.11.4/* /opt/solr
 
 # Create solr user for security
 sudo useradd -M -r solr
