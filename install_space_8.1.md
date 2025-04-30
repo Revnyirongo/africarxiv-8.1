@@ -112,7 +112,7 @@ sudo -u dspace bash
 
 # Download DSpace 8.1
 cd /home/dspace
-wget https://github.com/DSpace/DSpace/releases/download/dspace-8.1/dspace-8.1.tar.gz
+wget https://github.com/DSpace/DSpace/archive/refs/tags/dspace-8.1.tar.gz
 
 # Extract DSpace
 tar -xzvf dspace-8.1.tar.gz
