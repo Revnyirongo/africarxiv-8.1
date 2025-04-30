@@ -134,7 +134,7 @@ Create and configure the local.cfg file:
 sudo -u dspace bash
 
 # Copy the example config file
-cd /home/dspace/dspace-8.1/dspace/config
+cd /home/dspace/DSpace-dspace-8.1/dspace/config
 cp local.cfg.EXAMPLE local.cfg
 
 # Edit local.cfg with your configuration
@@ -184,7 +184,7 @@ cd /home/dspace/dspace-8.1
 mvn package
 
 # Install DSpace
-cd /home/dspace/dspace-8.1/dspace/target/dspace-installer
+cd /home/dspace/DSpace-dspace-8.1/dspace/target/dspace-installer
 ant fresh_install
 
 # Initialize the database
